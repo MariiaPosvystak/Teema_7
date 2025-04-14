@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>58025554-5795-4cd7-adbe-9fb38b645fe3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Teema_7.py</StartupFile>
+    <StartupFile>Euroopa riigid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Euroopa riigid.py" />
     <Compile Include="Teema_7.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fail.txt" />
+    <Content Include="riigid_pealinnad.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
